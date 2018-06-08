@@ -57,7 +57,7 @@ class RegisterForm extends Component {
 				<Field	name="newsletter"
 						component={customInput}
 						type="checkbox"
-						label="Sing up to Newsletter?"
+						label="Sign up to Newsletter?"
 				/>
 				<FieldArray	name="discountCodes" 
 							component={discounts}
